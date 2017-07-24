@@ -6,3 +6,11 @@ $(function() {
     var message=$('write').val();//On récupère la textarea et on modifie sa valeur avec val//
   })
 });
+
+function monChat (){
+  if(pseudo!=""&&message!==""){
+  $(#write).append("<p>"+pseudo+'dit:'+message+"</p>");
+
+  set interval(monChat,3000);
+}
+}
