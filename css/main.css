@@ -68,7 +68,7 @@ body {
   margin-left: 10px;
 }
 
-section {
+#chat{
   width: 330px;
   background-color: rgb(12, 217, 177);
   border:rgb(45, 186, 161) 8px solid;
@@ -81,11 +81,11 @@ section {
  }
 
  input {
-   width: 90px;
+   width: 70px;
  }
 
  #write {
-   width: 150px;
+   width: 170px;
  }
 
 h1 {
@@ -115,7 +115,7 @@ img {
    ========================================================================== */
 
 @media (min-width: 992px) {
-section {
+#chat {
 width: 600px;
 }
 
@@ -126,7 +126,7 @@ width: 600px;
 }
 
 #write {
-  width: 300px;
+  width: 320px;
 }
 
 input {

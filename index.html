@@ -17,18 +17,20 @@
 
 
 
-<section>
+<section id="chat">
 <h1>Mon chat</h1>
 <img src="img/grumpy.png" alt="chat" style="width:100px;">
 
 <div id="conversation"></div><br />
 
-      <section method="post">
-        <input type="text" id="nom" name="pseudo">
-        <textarea name="message" id="write"></textarea>
-        <button type="button" id="send" value="Envoyer"><img src="img/envoyer.png" style="width:25px;"></button>
+      <section>
+        <input type="text" id="pseudo" placeholder="Votre pseudo">
+        <input name="message" id="write" placeholder="Tapez ici votre message">
+        <button type="button" id="send" value="Envoyer"><img src="img/envoyer.png" style="width:20px;"></button>
       </section>
+
 </section>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
