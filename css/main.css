@@ -59,29 +59,30 @@ body {
   font-family: 'Muli', sans-serif;
 }
 #conversation {
-  width: 300px;
-  height: 400px;
+  width: 280px;
+  height: 200px;
   background-color: rgb(170, 246, 221);
   overflow-x: hidden;
   overflow-y: scroll;
   padding: 5px;
-  margin-left: 10px;
+
 }
 
 #chat{
-  width: 330px;
+  width: 290px;
+  height: 450px;
   background-color: rgb(12, 217, 177);
   border:rgb(45, 186, 161) 8px solid;
   border-radius: 8px;
   margin: auto;
 }
- form {
-   display: flex;
-
+ #send {
+   width: 100%;
  }
 
+
  input {
-   width: 70px;
+   width: 82px;
  }
 
  #write {
@@ -114,30 +115,32 @@ img {
    Media Queries
    ========================================================================== */
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 #chat {
 width: 600px;
+margin-top: 80px;
 }
 
 #conversation {
-  width: 550px;
+  width: 585px;
   margin: auto;
 
 }
 
+#send {
+  width: 70px;
+  height: 50px;
+}
+
+#pseudo {
+  width: 150px;
+}
+
 #write {
-  width: 320px;
+  width: 330px;
 }
 
-input {
-  width: 180px;
-}
 
-form {
-  display: flex;
-  justify-content: center;
-
-}
 }
 
 @media print,
